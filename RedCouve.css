@@ -1,0 +1,73 @@
+/**
+ * @name Red Couve
+ * @author A user#8169, Nyria#3863, hallalujah#7121
+ * @description A red version of Couve! [this is not official it is fan-made]
+ * @invite AfDsjBp44w
+ * @version 2.3.0
+*/
+
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
+
+/* Settings */
+:root {
+  --version: "2.3.0";
+
+  /* Colors */
+  --main-color: #9e4141;
+
+  /* Borders */
+  --avatar-radius: 8px;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+  /* BGs */
+  --background-primary: #3e2525;
+  --background-secondary: #371e1e;
+  --background-secondary-alt: #381c1c;
+  --background-secondary-alt-alt: #311b1b;
+  --background-tertiary: #240606;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0003;
+
+  /* Cards */
+  --card: #322121;
+
+  /* Other stuff */
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
+
+  /* Font */
+  --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+  /* BGs */
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0001;
+
+  /* Cards */
+  --card: #aaaaaa;
+
+  /* Other stuff */
+  --textcolor: #000;
+  --epicshadow1: #0003;
+}
